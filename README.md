@@ -1,34 +1,8 @@
 # SoftwareEngineeringProject-Text Based Game :european_castle:
 
-Gruppo 9 (Simionato Matteo, Pizzolato Enrico, Piccolo Stefano, Dall'Ò Leonardo
-                                                                                                    
-                                                           
-                              #--------===#                                  
-                           =-::::-+++**++==-=+#                              
-                         *----++--===========+++*#                           
-                       %===**=-==**##%@%#*****#*##%                          
-                      *+**=-*@#*+#@@@@@@@@@@%***##%                          
-                    *=----=#@@%**@@@@@@@@@@@%***#%                           
-                 *++*****++%@@@%#@@@@@@@@@@#*###                             
-               +----====--*@@@@@#@@@@@@@@@@*#                                
-              #=------=+*#%###%@+@@@@@@@@@@##    %%%#*+=-==+++***            
-             **#*****====+%*++++++++++#@@@@@#***##+++=*#*+========*          
-          #*=-============+++++*=+*======+%@@%##%****##============+*        
-      %+=-=*=----=======+===+=======-=========+*#*#*##***+*******##*++=+*#%  
-     *----+**+==++***++=====================+*****%  #++*##===============*% 
-    %*=-----================++++++===+++++++***##%        #=--=========-==*@ 
-    **#*++++**###**++===+**+++++++*++++=+#%%%##**%         %++#  ###%+=---+  
-    *=+**++++***++++++****+**##*********#**********##                 *==*  
-    #===+*#**##******##***#**********************#%#*=%                         
-    ##**=---=++*#***********######*****#####*###**##%                          
-     *=--=======#**********#***+========++*****#                              
-      #+*#%%++++   @%%%           %#++====+*%                                 
-                                                                                                   
-                                                                                
-                                                                      
-
 ## Documentazione e istruzioni per l'utilizzo
-Tutta la documentazione è consultabile sul branch [docs]
-
-## Fonti esterne
-Per la generazione delle Ascii art è stato utilizzato il sito: (https://www.asciiart.eu/image-to-ascii)
+Le user stories sono consultabili sulla pagina jira: link
+Nei docs sono presenti:
+* I vari documenti di design (domain model, system sequence diagram, design class model, internal sequence diagram)
+* Il documento di system test
+* Il report di unit test
