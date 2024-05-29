@@ -1,6 +1,6 @@
 # SoftwareEngineeringProject-Text Based Game :european_castle:
 
-Gruppo 9 (Simionato Matteo, Pizzolato Enrico, Piccolo Stefano, Dall'Ò Leonardo
+Gruppo 9 (Simionato Matteo, Pizzolato Enrico, Piccolo Stefano, Dall'Ò Leonardo)
                                                                                                     
                                                            
                               #--------===#                                  
