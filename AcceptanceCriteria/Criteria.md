@@ -1,13 +1,10 @@
 # Use Cases
-1. Visualizzare configurazione corrente
-2. Scegliere configurazione iniziale
-3. Muovere i pezzi nelle posizioni consentite
-4. Visualizzare counter delle mosse effettuate
-5. Utilizzare funzione di reset
-6. Utilizzare funzione di undo
-7. Visualizzare "next best move"
-8. Salvare la partita
-9. Ripristinare partita salvata
-10. Fornire "next best move"
-11. Vincere
-
+1. Salvare la partita
+2. Interagire con gli oggetti
+3. Muoversi tra le stanze
+4. Interagire con gli npc
+5. Combattere con i nemici
+6. Accedere all'inventario
+7. Equippaggiare e usare gli oggetti
+8. Visualizzare il punteggio
+9. Avere un interfaccia grafica
