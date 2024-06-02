@@ -1,13 +1,15 @@
 # User Stories
 1. Save the game
 2. Inspect Objects
-3. Muoversi tra le stanze
-4. Interagire con gli npc
-5. Combattere con i nemici
-6. Accedere all'inventario
-7. Equippaggiare e usare gli oggetti
-8. Visualizzare il punteggio
-9. Avere un interfaccia grafica
+3. Take Objects
+4. Move between roms
+5. Interact with Npcs
+6. Fight Enemies
+7. Access the inventory
+8. Use Objects
+9. Equip Objects
+10. Show Score
+11. Load Game
 
 
 ### Acceptance Criteria 1
