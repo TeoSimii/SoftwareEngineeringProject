@@ -34,6 +34,13 @@
   </tr>
 </table>
 
+#### Extended Criteria
+*While the player is in the room and the system asks him the action to perform
+*When the player digits the command "Save"
+*The system saves the current status of the player and every room in the game
+*Then shows the player the message "Saving complete"
+
+
 ### Acceptance Criteria 2
 <table>
   <tr>
