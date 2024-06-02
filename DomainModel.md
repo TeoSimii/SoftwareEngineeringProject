@@ -1,4 +1,4 @@
-# Class Diagram
+# DomainModel
 
 ![Class Diagram](img/ClassDiagram.png)
 
