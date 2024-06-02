@@ -2,6 +2,7 @@
 
 ![Class Diagram](img/ClassDiagram.png)
 
+```plantuml
 @startuml
 object Room
 object Player
@@ -31,3 +32,4 @@ Room "1" o-- "*" Equipment : contains
 SaveBucket --> Dungeon : saves state of
 SaveBucket --> Player : saves state of
 @enduml
+```
