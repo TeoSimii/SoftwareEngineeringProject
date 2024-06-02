@@ -3,8 +3,8 @@
 2. Inspect Objects
 3. Take Objects
 4. Move between roms
-5. Interact with Npcs
-6. Fight Enemies
+5. Fight Enemies
+6. Interact with Npcs
 7. Access the inventory
 8. Use Objects
 9. Equip Objects
@@ -142,7 +142,7 @@
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm in a room</td>
+    <td>I'm moving to a room</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -163,16 +163,21 @@
 </table>
 
 #### Extended Criteria
+* When the player encounters an enemy and decides to fight him
+* When the player defeats the enemy by bringing his hp to 0
+* A certain score based on the difficulty of the enemy gets added to the player score
+* The score doesn't get added if the player runs away from the enemy
+* The game ends if the player health reaches 0
 
 ### Acceptance Criteria 6
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm playing the game</td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I'm in a room</td>
+    <td>There is a Npc</td>
   </tr>
   <tr>
     <td><b>When</b></td>
@@ -180,11 +185,11 @@
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the command "Save"</td>
+    <td>I digit the command "Talk Npc_name"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>The system saves my progress</td>
+    <td>The character interacts with the npc</td>
   </tr>
 </table>
 
