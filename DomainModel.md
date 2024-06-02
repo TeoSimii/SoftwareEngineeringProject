@@ -1,6 +1,6 @@
-# DomainModel
+# Domain Model
 
-![Class Diagram](img/ClassDiagram.png)
+![Class Diagram](img/DomainModel.png)
 
 ```plantuml
 @startuml
