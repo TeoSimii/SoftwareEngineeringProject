@@ -1,6 +1,6 @@
 # User Stories
-1. Salvare la partita
-2. Interagire con gli oggetti
+1. Save the game
+2. Inspect Objects
 3. Muoversi tra le stanze
 4. Interagire con gli npc
 5. Combattere con i nemici
