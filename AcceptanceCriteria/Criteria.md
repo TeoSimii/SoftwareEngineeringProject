@@ -338,9 +338,13 @@
     <td><b>When</b></td>
     <td>I choose the load option</td>
   </tr>
+   <tr>
+    <td><b>And</b></td>
+    <td>The save file gets loaded</td>
+  </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>the game I previously saved is loaded</td>
+    <td>the I can continue playing</td>
   </tr>
 </table>
 
