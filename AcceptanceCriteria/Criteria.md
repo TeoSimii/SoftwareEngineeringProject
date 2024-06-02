@@ -75,251 +75,167 @@
 ### Acceptance Criteria 3
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
 
 ### Acceptance Criteria 4
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
 
 ### Acceptance Criteria 5
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
 
 ### Acceptance Criteria 6
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
 
 ### Acceptance Criteria 7
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
 
 ### Acceptance Criteria 8
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
 
 ### Acceptance Criteria 9
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
