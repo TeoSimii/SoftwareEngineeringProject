@@ -344,7 +344,7 @@
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>the I can continue playing</td>
+    <td>I can continue playing</td>
   </tr>
 </table>
 
