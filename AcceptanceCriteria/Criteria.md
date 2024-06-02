@@ -1,4 +1,4 @@
-# Use Cases
+# User Stories
 1. Salvare la partita
 2. Interagire con gli oggetti
 3. Muoversi tra le stanze
@@ -10,7 +10,7 @@
 9. Avere un interfaccia grafica
 
 
-### Use Case 1
+### Acceptance Criteria 1
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -46,7 +46,7 @@
   </tr>
 </table>
 
-### Use Case 2
+### Acceptance Criteria 2
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -82,7 +82,7 @@
   </tr>
 </table>
 
-### Use Case 3
+### Acceptance Criteria 3
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -118,7 +118,7 @@
   </tr>
 </table>
 
-### Use Case 4
+### Acceptance Criteria 4
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -154,7 +154,7 @@
   </tr>
 </table>
 
-### Use Case 5
+### Acceptance Criteria 5
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -190,7 +190,7 @@
   </tr>
 </table>
 
-### Use Case 6
+### Acceptance Criteria 6
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -226,7 +226,7 @@
   </tr>
 </table>
 
-### Use Case 7
+### Acceptance Criteria 7
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -262,7 +262,7 @@
   </tr>
 </table>
 
-### Use Case 8
+### Acceptance Criteria 8
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
@@ -298,7 +298,7 @@
   </tr>
 </table>
 
-### Use Case 9
+### Acceptance Criteria 9
 <table>
   <tr>
     <td><b>Nome dello Use Case</b>
