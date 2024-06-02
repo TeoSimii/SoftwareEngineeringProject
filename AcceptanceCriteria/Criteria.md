@@ -38,44 +38,39 @@
 * While the player is in the room and the system asks him the action to perform
 * When the player digits the command "Save"
 * The system saves the current status of the player and every room in the game
-* Then shows the player the message "Saving complete"
+* Display the message "Saving complete"
 
 
 ### Acceptance Criteria 2
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
-    <td></td>
+    <td><b>Given</b>
+    <td>I'm in a room</td>
   </tr>
   <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
+    <td><b>And</b></td>
+    <td>I want to inspect an object</td>
   </tr>
   <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
+    <td><b>When</b></td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
+    <td><b>And</b></td>
+    <td>I digit the command "Inspect object_name"</td>
   </tr>
   <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
+    <td><b>Then</b></td>
+    <td>The system shows me the description of the item</td>
   </tr>
 </table>
+
+#### Extended Criteria
+* While the player is in the room and the system asks him the action to perform
+* When the player digit "inspect object_name"
+* Display the description of that item
+* Display an error message if the item is not in the room
+* Display an error message if the object name is missing in the command
 
 ### Acceptance Criteria 3
 <table>
