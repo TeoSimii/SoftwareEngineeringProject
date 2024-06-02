@@ -78,11 +78,11 @@
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm playing the game</td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I'm in a room</td>
+    <td>I want to take an item</td>
   </tr>
   <tr>
     <td><b>When</b></td>
@@ -90,23 +90,32 @@
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the command "Save"</td>
+    <td>I digit the command "Take Object_name"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>The system saves my progress</td>
+    <td>The the item gets added to my inventory</td>
   </tr>
 </table>
+
+#### Extended Criteria
+* While the player is in the room and the system asks him the action to perform
+* When the player digit "Take object_name"
+* Add the item to the inventory of the player
+* Increase the player weight
+* Display error message if the item is not in the room
+* Display error message if the player has reached max weight
+* Display error message if the item cannot be picked up
 
 ### Acceptance Criteria 4
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm playing the game</td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I'm in a room</td>
+    <td>I want to move to another room</td>
   </tr>
   <tr>
     <td><b>When</b></td>
@@ -114,37 +123,46 @@
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the command "Save"</td>
+    <td>I digit the a cardinal direction between "north/south/east/west"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>The system saves my progress</td>
+    <td>The character moves to the room in that direction</td>
   </tr>
 </table>
+
+#### Extended Criteria
+* While the player is in the room and the system asks him the action to perform
+* When the player digits one of the four cardinal direction:  "north/south/east/west"
+* The player moves to the room in that direction
+* Display error message if there isn't a door in that direction
+* Display error message if the door is locked
 
 ### Acceptance Criteria 5
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm playing the game</td>
-  </tr>
-  <tr>
-    <td><b>And</b></td>
     <td>I'm in a room</td>
   </tr>
   <tr>
+    <td><b>And</b></td>
+    <td>There is an enemy</td>
+  </tr>
+  <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>I'm fighting him</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the command "Save"</td>
+    <td>I defeat him</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>The system saves my progress</td>
+    <td>My score increases</td>
   </tr>
 </table>
+
+#### Extended Criteria
 
 ### Acceptance Criteria 6
 <table>
