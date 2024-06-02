@@ -106,6 +106,7 @@
 * Display error message if the item is not in the room
 * Display error message if the player has reached max weight
 * Display error message if the item cannot be picked up
+* Display an error message if the object name is missing in the command
 
 ### Acceptance Criteria 4
 <table>
@@ -193,15 +194,22 @@
   </tr>
 </table>
 
+#### Extended Criteria
+* While the player is in the room and the system asks him the action to perform
+* When the player digits the command "Talk Npc_name"
+* Display the npc quest dialog
+* Display error message if the npc is not in the room
+* Display an error message if the npc name is missing in the command
+  
 ### Acceptance Criteria 7
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm playing the game</td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I'm in a room</td>
+    <td>I want to check my inventory</td>
   </tr>
   <tr>
     <td><b>When</b></td>
@@ -209,23 +217,31 @@
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the command "Save"</td>
+    <td>I digit the command "Inventory"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>The system saves my progress</td>
+    <td>I enter the inventory menu</td>
   </tr>
 </table>
+
+#### Extended Criteria
+* While the player is in the room and the system asks him the action to perform
+* When the player digits the command "Inventory"
+* System enters the inventory menu
+* Displays the inventory content
+* Displays player name, weight and hp
+* Displays menu commands list
 
 ### Acceptance Criteria 8
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm playing the game</td>
+    <td>I'm in the inventory menu</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I'm in a room</td>
+    <td>I want to use an item</td>
   </tr>
   <tr>
     <td><b>When</b></td>
@@ -233,13 +249,21 @@
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the command "Save"</td>
+    <td>I digit the command "use object_name"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>The system saves my progress</td>
+    <td>The character uses that item</td>
   </tr>
 </table>
+
+#### Extended Criteria
+* While the player is in the inventory menu and the system asks him the action to perform
+* When the player digits the command "use object_name"
+* Display item effect on player
+* Discard the item if the quantity is 1
+* Decrease item quantity if quantity is >1
+* Display error if the item can't be used
 
 ### Acceptance Criteria 9
 <table>
