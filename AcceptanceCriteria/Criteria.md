@@ -24,7 +24,7 @@
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>The game asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -55,7 +55,7 @@
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>The game asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -86,7 +86,7 @@
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>The game asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -120,7 +120,7 @@
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>The game asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -182,7 +182,7 @@
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>The game asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -213,7 +213,7 @@
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>The game asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -245,7 +245,7 @@
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>The games asks me what to do</td>
+    <td>The game asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
@@ -264,16 +264,17 @@
 * Discard the item if the quantity is 1
 * Decrease item quantity if quantity is >1
 * Display error if the item can't be used
+* Display error if the item is not in the inventory
 
 ### Acceptance Criteria 9
 <table>
   <tr>
     <td><b>Given</b>
-    <td>I'm playing the game</td>
+    <td>I'm in the inventory menu</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I'm in a room</td>
+    <td>I want to equip an item</td>
   </tr>
   <tr>
     <td><b>When</b></td>
@@ -281,10 +282,70 @@
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the command "Save"</td>
+    <td>I digit the command "equip object_name"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td>The system saves my progress</td>
+    <td>The character equips that item</td>
   </tr>
 </table>
+
+#### Extended Criteria
+* While the player is in the inventory menu and the system asks him the action to perform
+* When the player digits the command "equip object_name"
+* Display success message
+* Display error if the item can't be equipped
+* Display error if the item is not in the inventory
+* Display error if the player already has an item of that type quipped
+
+### Acceptance Criteria 10
+<table>
+  <tr>
+    <td><b>Given</b>
+    <td>The game has ended</td>
+  </tr>
+  <tr>
+    <td><b>And</b></td>
+    <td>I won or lost</td>
+  </tr>
+  <tr>
+    <td><b>When</b></td>
+    <td>The game diplays the final message</td>
+  </tr>
+  <tr>
+    <td><b>Then</b></td>
+    <td>The final score is displayed</td>
+  </tr>
+</table>
+
+#### Extended Criteria
+* When the player has defeated the boss or when the player has died
+* Display the good ending if the player is alive
+* Display the bad ending if the player is dead
+* Display the final score
+
+* ### Acceptance Criteria 11
+<table>
+  <tr>
+    <td><b>Given</b>
+    <td>I'm in the main menu</td>
+  </tr>
+  <tr>
+    <td><b>And</b></td>
+    <td>I want continue playing from where I saved</td>
+  </tr>
+  <tr>
+    <td><b>When</b></td>
+    <td>I choose the load option</td>
+  </tr>
+  <tr>
+    <td><b>Then</b></td>
+    <td>the game I previously saved is loaded</td>
+  </tr>
+</table>
+
+#### Extended Criteria
+* When the player is in the main menu
+* When he chooses the load option
+* Load saved file to let him continue playing
+* Display error message if there isn't any saved file
