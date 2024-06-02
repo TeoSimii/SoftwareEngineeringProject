@@ -124,7 +124,7 @@
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>I digit the a cardinal direction between "north/south/east/west"</td>
+    <td>I digit a cardinal direction between "north/south/east/west"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
