@@ -171,10 +171,12 @@ class Npc {
 }
 
 class Events {
+  # static Room[][] dungeon
   ..
   + static void initDungeon () 
-  + static boolean randomEncounter (int, Player)
-  + static void battle (Enemy, Player)
+  + static Room[][] getDungeon()
+  + static boolean randomEncounter (int, Player, Scanner)
+  + static void battle (Enemy, Player, Scanner)
   + static boolean gameEnd (Player)
   + static boolean move (String, Player, Room)
   + static void usePotion (HealItem, Player)
