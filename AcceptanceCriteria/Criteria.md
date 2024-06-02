@@ -14,23 +14,23 @@
 <table>
   <tr>
     <td><b>Given</b>
-    <td>Save the game</td>
+    <td>I'm playing the game</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>Player</td>
+    <td>I'm in a room</td>
   </tr>
   <tr>
     <td><b>When</b></td>
-    <td>During the game, the </td>
+    <td>The games asks me what to do</td>
   </tr>
   <tr>
     <td><b>And</b></td>
-    <td>-</td>
+    <td>I digit the command "Save"</td>
   </tr>
   <tr>
     <td><b>Then</b></td>
-    <td></td>
+    <td>The system saves my progress</td>
   </tr>
 </table>
 
