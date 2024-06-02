@@ -13,36 +13,24 @@
 ### Acceptance Criteria 1
 <table>
   <tr>
-    <td><b>Nome dello Use Case</b>
+    <td><b>Given</b>
+    <td>Save the game</td>
+  </tr>
+  <tr>
+    <td><b>And</b></td>
+    <td>Player</td>
+  </tr>
+  <tr>
+    <td><b>When</b></td>
+    <td>During the game, the </td>
+  </tr>
+  <tr>
+    <td><b>And</b></td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td><b>Then</b></td>
     <td></td>
-  </tr>
-  <tr>
-    <td><b>Attori</b></td>
-    <td>Giocatore</td>
-  </tr>
-  <tr>
-    <td><b>Descrizione</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Precondizioni</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Scenario Principale</b></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td><b>Scenario Alternativo</b></td>
-    <td>-</td>
-  </tr>
-  <tr>
-    <td><b>Post-Condizioni</b></td>
-    <td>-</td>
-  </tr>
-    <tr>
-    <td><b>Note</b></td>
-    <td>-</td>
   </tr>
 </table>
 
