@@ -54,7 +54,7 @@ end
 @enduml
 ```
 ## Move
-![Move](img/Move.png)
+![Move](img/Mov.png)
 ```plantuml
 @startuml
 actor Giocatore
