@@ -1,5 +1,6 @@
 # Internal Sequence Diagrams
 ## Combat
+![Combat](img/Combat.png)
 ```plantuml
 @startuml
 actor Giocatore
@@ -53,6 +54,7 @@ end
 @enduml
 ```
 ## Move
+![Move](img/Move.png)
 ```plantuml
 @startuml
 actor Giocatore
@@ -83,6 +85,7 @@ end
 ```
 
 ## usePotion
+![usePotion](img/usePotion.png)
 ```plantuml
 @startuml
 actor Giocatore
@@ -118,6 +121,7 @@ end
 ```
 
 ## PickUp
+![PickUp](img/PickUp.png)
 ```plantuml
 @startuml
 actor Giocatore
@@ -166,6 +170,7 @@ end
 ```
 
 ## Discard
+![Discard](img/Discard.png)
 ```plantuml
 @startuml
 actor Giocatore
