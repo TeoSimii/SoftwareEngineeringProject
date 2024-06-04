@@ -2,7 +2,7 @@
 
 ![System Diagram](img/SystemDiagram.png)
 
-''''plantuml
+```plantuml
 @startuml
 actor Player
 participant System
@@ -151,6 +151,7 @@ end
 end
 
 alt Player Alive
+```
 System->Player: Victoy and prints score
 else Player Dead
 System->Player:Defeat and prints score
