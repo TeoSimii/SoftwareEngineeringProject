@@ -1,5 +1,5 @@
 # Internal Sequence Diagrams
-## Combat
+## Battle
 ![Combat](img/Combat.png)
 ```plantuml
 @startuml
