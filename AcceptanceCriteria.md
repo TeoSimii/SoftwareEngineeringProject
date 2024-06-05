@@ -261,8 +261,7 @@
 * While the player is in the inventory menu and the system asks him the action to perform
 * When the player digits the command "use object_name"
 * Display item effect on player
-* Discard the item if the quantity is 1
-* Decrease item quantity if quantity is >1
+* Discards the used item
 * Display error if the item can't be used
 * Display error if the item is not in the inventory
 
