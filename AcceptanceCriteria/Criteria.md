@@ -2,7 +2,7 @@
 1. Save the game
 2. Inspect Objects
 3. Take Objects
-4. Move between roms
+4. Move between rooms
 5. Fight Enemies
 6. Interact with Npcs
 7. Access the inventory
