@@ -40,4 +40,4 @@ Throughout the journey, players can encounter various items (both pickable and n
 ![Dungeon Overview](img/DungeonOverview.png)
 
 ## Fonti esterne
-Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii)
+Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii =400x400)
