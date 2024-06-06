@@ -48,5 +48,6 @@ Le librerie esterne utilizzate nel progetto sono:
 * . java awt
 *  com.google.gson
 *  java.nio
+*  .lang.Thread
 * . org.json
 * . org.apache.commons.io
