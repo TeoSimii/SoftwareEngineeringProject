@@ -44,10 +44,10 @@ Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https
 
 ## Librerie utilizzate
 Le librerie esterne utilizzate nel progetto sono:
-* . java swing
-* . java awt
-*  com.google.gson
-*  java.nio
-*  .lang.Thread
-* . org.json
-* . org.apache.commons.io
+* java swing
+* java awt
+* com.google.gson
+* java.nio
+* .lang.Thread
+* .org.json
+* .org.apache.commons.io
