@@ -42,7 +42,7 @@ Il layout della griglia, comprese le porte bloccate, gli oggetti e gli NPC, è d
 ## Fonti esterne
 Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii)
 
-Per la funzionalità di salvataggio è stato utilizzato il servizio di Amazon: [aws Bucket](shttps://aws.amazon.com/it/s3/)
+Per la funzionalità di salvataggio è stato utilizzato il servizio di Amazon: [aws Bucket](https://aws.amazon.com/it/s3/)
 
 ## Librerie utilizzate
 Le librerie esterne utilizzate nel progetto sono:
