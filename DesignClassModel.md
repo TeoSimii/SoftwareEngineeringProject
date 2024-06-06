@@ -1,6 +1,6 @@
 # Design Class Model
 
-![Design Class Model](img/DesignClassModel.png)
+![Design Class Model](img/DesignClassMdel.png)
 
 ```plantuml
 @startuml
