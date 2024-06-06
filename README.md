@@ -39,5 +39,7 @@ Il layout della griglia, comprese le porte bloccate, gli oggetti e gli NPC, è d
 
 ![Dungeon Overview](img/DungeonOverview.png)
 
+<img src="img/DungeonOverview.png" alt="drawing" width="200"/>
+
 ## Fonti esterne
 Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii)
