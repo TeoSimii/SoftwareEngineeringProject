@@ -63,6 +63,44 @@ class HealItem {
   + int getHealingPower()
 }
 
+class Game {
+  # Jbutton submit
+  # JTextField command
+  # Jlabel log
+  # Jlabel display
+  # Jpanel bottomPanel
+  # int mode
+  # String Name
+  # Player player
+  ..Constructor..
+  + Game(String, Int)
+  ..
+  + void newGame()
+  + void load_game()
+}
+
+class Enemy {
+  #int hp
+  #int given_score
+  #int mobTier
+  #int maxHp
+  #String Name
+  #Random RANDOM 
+
+  ..Constructor..
+  + Enemy ()
+  + Enemy (int)
+  ..Getter..
+  + String getName()
+  + int getHealth()
+  + int getMaxHp()
+  + int getScore()
+  + int getTier()
+  ..
+  + int attack(int)
+  + void takeDamage()
+}
+
 class KeyItem {
   ..Constructor..
   + KeyItem (String)
@@ -79,6 +117,7 @@ class Room {
   #boolean eastLocked
   #boolean westLocked
   ..Constructor..
+  + Room ()
   + Room (int)
   ..Getter..
   + int getId()
@@ -90,7 +129,7 @@ class Room {
   + void SetLocked (String)
   ..
   + boolean HasDirection (String)
-  + void showItems()
+  + void showItems(Jlabel)
   + Item isInRoom (String)
   + Npc isNpcInRoom (String)
   + void removeItem (Item)
@@ -172,22 +211,27 @@ class Npc {
 
 class Events {
   # static Room[][] dungeon
+  # static String c
+  # static final JButton submit
+  # static boolean buttonPressed
+  # JTextField test
   ..
   + static void initDungeon () 
+  + static void setDungeon(Room[][])
   + static Room[][] getDungeon()
-  + static boolean randomEncounter (int, Player, Scanner)
-  + static void battle (Enemy, Player, Scanner)
-  + static boolean gameEnd (Player)
-  + static boolean move (String, Player, Room)
-  + static void usePotion (HealItem, Player)
-  + static void gameLoop (Player)
-  + static Npc Interaction (Npc)
-  + static void GameIntro ()
+  + static boolean randomEncounter (int, Player, JLabel, JLabel, String, Boolean)
+  + static void battle (Enemy, Player, JLabel, JLabel, String, Boolean)
+  + static boolean gameEnd (Player, JLabel)
+  + static boolean move (String, Player, Room, JLabel)
+  + static void usePotion (HealItem, Player, JLabel)
+  + static synchronized void gameLoop (Player, JLabel, JLabel, JTextField, JPanel)
+  + static Npc Interaction (Npc, JLabel, JLabel)
+  + static void GameIntro (JLabel)
 }
 
 class SaveFile {
-  # BasicAWSCredentials creds
-  # AWSStaticCredentialsProvider provider
+  # PropertiesFileCredentialsProvider properties
+  # AWSStaticCredentialsProvider credentialsProvider
   # AmazonS3 s3Client
   # String bucketName
   # String fileName
@@ -197,12 +241,12 @@ class SaveFile {
   + static void load (Player, Room[][])
   + static void loadNpc (JSONObject, Room[][])
   + static void itemSorter (ArrayList<Item>, JSONObject)
-  + static InputStream getInputStream (S3Object, saveFile)
   ..Getter..
   + String getFileName()
   + String getFilePath()
   + String getBucketName()
   + AmazonS3 getS3Client()
+  + static InputStream getInputStream (S3Object, saveFile)
 }
 
 Item *-- HealItem: contains
@@ -210,7 +254,8 @@ Item *-- KeyItem: contains
 Item *-- Weapon: contains
 Item *-- Armor: contains
 
-
+Events -up-> Game: uses
+Events -up-> Enemy: instantiates
 Player -left-> Item : interacts with
 Events --> Player : instantiates
 Events *-right- Room : contains and instantiates
