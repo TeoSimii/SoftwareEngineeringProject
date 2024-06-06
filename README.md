@@ -54,6 +54,10 @@ Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https
 
 Per la funzionalità di salvataggio è stato utilizzato il servizio di Amazon: [AWS S3 Bucket](https://aws.amazon.com/it/s3/)
 
+## Design pattern usati
+Abbiamo utilizzato il Facade Pattern che sfrutta una classe per controllare e accedere alle altre presenti nel testo: nel nostro programma, la classe Events controlla e sfrutta le altre classi diventando quindi la classe che "comunica" con l'interfaccia grafica e il giocatore reale (come si può vedere dal Design Class Model).
+Questa configurazione rispetta i tre concetti di questo pattern: il Low Coupling è rispettato poiché l'interazione si limita tra la classe Events e le classi atomiche (ossia classi che rispettano la rappresentazione atomica e separata dei concetti, come vuole il Low Cohesion). Il concetto di Pure Fabrication è incontrato dalla gestione unica dei processi da parte di Events, creata seguendo appunto questa idea.
+
 ## Librerie utilizzate
 Le librerie esterne utilizzate nel progetto sono:
 * java swing
