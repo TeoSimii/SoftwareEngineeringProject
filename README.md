@@ -46,6 +46,7 @@ Questo è necessario per l'utilizzo del file "pom.xml" che contiene gli script p
 
 ## Specifiche di versione e utilizzo di funzioni
 Java è nella versione più recente 22.
+
 Per usufruire della parte cloud che comprende il save e load della partita, si necessita del file aws-credentials.properties da posizionare nel percorso " ..\IDS-Project\src\main\resources\ ", per ottenere il file basta fare una richesta via email agli sviluppatori.
 
 ## Fonti esterne
