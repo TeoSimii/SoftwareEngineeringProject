@@ -1,6 +1,6 @@
-# Class Diagram
+# Design Class Model
 
-![Class Diagram](img/ClassDiagram.png)
+![Design Class Model](img/DesignClassModel.png)
 
 ```plantuml
 @startuml
