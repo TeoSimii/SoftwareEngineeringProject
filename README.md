@@ -37,7 +37,7 @@ The player starts in the upper left room of the dungeon grid, with the objective
 
 Throughout the journey, players can encounter various items (both pickable and non-pickable) that can be used as combat or healing items. Additionally, key items are used to unlock gates or trade with NPCs found in certain rooms. The layout of the grid, including blocked gates, items, and NPCs, is detailed in the file "Griglia progetto EdIdS.jpg."
 
-![Dungeon Overview](img/DungeonOverview.png)
+![Dungeon Overview](img/DungeonOverview.png =400x400)
 
 ## Fonti esterne
-Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii =400x400)
+Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii)
