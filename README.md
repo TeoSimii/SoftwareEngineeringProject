@@ -1,7 +1,7 @@
 # SoftwareEngineeringProject-Text Based Game :european_castle:
 
 ## Documentazione e istruzioni per l'utilizzo
-Le user stories sono consultabili sulla pagina jira: link
+Le user stories sono consultabili sulla pagina jira: [UserStories](https://matteosimionato.atlassian.net/jira/software/projects/SEUS/list)
 
 I risultati dei test effetuati sul codice sono disponibili qui: [Test](https://htmlpreview.github.io/?https://github.com/TeoSimii/SoftwareEngineeringProject/blob/docs/TestResults.html)
 
