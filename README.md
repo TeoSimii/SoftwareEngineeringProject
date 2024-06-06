@@ -37,7 +37,7 @@ Il giocatore inizia nella stanza in alto a sinistra della griglia del dungeon, c
 
 Il layout della griglia, comprese le porte bloccate, gli oggetti e gli NPC, è dettagliato nel file "Griglia progetto EdIdS.jpg". Qui sotto è presente una griglia spoglia del dungeon:
 
-![Dungeon Overview](img/DungeonOvrview.png)
+![Dungeon Overview](img/DungeonOverview.png)
 
 ## Fonti esterne
 Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii)
