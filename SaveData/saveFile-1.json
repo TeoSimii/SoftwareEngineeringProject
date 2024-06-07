@@ -1,0 +1,522 @@
+{"player":{
+   "score":300,
+   "name": "ste",
+   "weight":1,
+   "HP":95,
+   "maxHP":100,
+   "attackDamage":100,
+   "x":2,
+   "y":0,
+   "prex":1,
+   "prey":0
+ }, 
+
+"inventory":[
+  {
+    "name": "pebble",
+    "description": "Can you stop picking up useless things? It\u0027s literally just a pebble",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+], 
+
+"Room[0][0]":[
+{"Item":
+[
+  {
+    "attackDamage": 5,
+    "name": "Butterfly Knife",
+    "description": "A Butterfly Knife, it may not be much, but it\u0027s a start",
+    "weight": 2,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": true
+  },
+  {
+    "name": "old skull",
+    "description": "I... I don\u0027t even know why you picked it up, it\u0027s just a skull",
+    "weight": 2,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[0][1]":[
+{"Item":
+[
+  {
+    "armorPoints": 30,
+    "name": "Rathalos Armor",
+    "description": "An armor made from the scales of an apex monster of the Ancient Forest, also known as the King of the Skies",
+    "weight": 15,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": true,
+    "isWeapon": false
+  },
+  {
+    "name": "corpse",
+    "description": "The corpse of a soldier, may his soul return to the great flame",
+    "weight": 999,
+    "canUse": false,
+    "canPickUp": false,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "name": "old skull",
+    "description": "I... I don\u0027t even know why you picked it up, it\u0027s just a skull",
+    "weight": 2,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "name": "gold coin",
+    "description": "uhhhh, shiny!! :)",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[0][2]":[
+{"Item":
+[]},
+
+{"Npc":
+[]}],
+"Room[0][3]":[
+{"Item":
+[]},
+
+{"Npc":
+[]}],
+"Room[1][0]":[
+{"Item":
+[
+  {
+    "name": "pebble",
+    "description": "Can you stop picking up useless things? It\u0027s literally just a pebble",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "armorPoints": 20,
+    "name": "Elite Knight Armor",
+    "description": "An armor made from the finest of steels, symbol of a knight of great status",
+    "weight": 20,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": true,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[1][1]":[
+{"Item":
+[
+  {
+    "name": "bandages",
+    "description": "A pile of bandages, might help someone in need",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "name": "corpse",
+    "description": "The corpse of a soldier, may his soul return to the great flame",
+    "weight": 999,
+    "canUse": false,
+    "canPickUp": false,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[1][2]":[
+{"Item":
+[
+  {
+    "name": "old skull",
+    "description": "I... I don\u0027t even know why you picked it up, it\u0027s just a skull",
+    "weight": 2,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "name": "corpse",
+    "description": "The corpse of a soldier, may his soul return to the great flame",
+    "weight": 999,
+    "canUse": false,
+    "canPickUp": false,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "healingPower": -15,
+    "name": "old potion",
+    "description": "Looks quite old, but it might still work... I think?",
+    "weight": 2,
+    "canUse": true,
+    "canPickUp": true,
+    "heals": true,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[1][3]":[
+{"Item":
+[
+  {
+    "name": "pebble",
+    "description": "Can you stop picking up useless things? It\u0027s literally just a pebble",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "armorPoints": 50,
+    "name": "Berserker Armor",
+    "description": "An armor that feeds off the rage of the user, extremely heavy and very resistant to attacks",
+    "weight": 35,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": true,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[
+  {
+    "name": "patches",
+    "QuestCompleted": false
+  }
+]}],
+"Room[2][0]":[
+{"Item":
+[
+  {
+    "healingPower": 20,
+    "name": "estus flask",
+    "description": "A potion from a far land, restores 20Hp",
+    "weight": 2,
+    "canUse": true,
+    "canPickUp": true,
+    "heals": true,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[
+  {
+    "name": "injured knight",
+    "QuestCompleted": false
+  }
+]}],
+"Room[2][1]":[
+{"Item":
+[]},
+
+{"Npc":
+[]}],
+"Room[2][2]":[
+{"Item":
+[
+  {
+    "name": "corpse",
+    "description": "The corpse of a soldier, may his soul return to the great flame",
+    "weight": 999,
+    "canUse": false,
+    "canPickUp": false,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "name": "the emperor",
+    "description": "A special totem, might teleport you directly inside of the boss room or back to the entrance. \nBe ready to gamble with fate",
+    "weight": 5,
+    "canUse": true,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "attackDamage": 15,
+    "name": "Artoria\u0027s Sword",
+    "description": "A sword that was once wielded by the greatest knight in history",
+    "weight": 16,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": true
+  },
+  {
+    "name": "gold coin",
+    "description": "uhhhh, shiny!! :)",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[2][3]":[
+{"Item":
+[
+  {
+    "name": "damaged scroll",
+    "description": "A scroll that once belonged to an ancient cult, has something written on it: Fear the old blood",
+    "weight": 0,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": false,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "attackDamage": 20,
+    "name": "Mortal Blade",
+    "description": "A legendary katana from a far land, able to severe immortality",
+    "weight": 10,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": true
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[3][0]":[
+{"Item":
+[
+  {
+    "name": "old skull",
+    "description": "I... I don\u0027t even know why you picked it up, it\u0027s just a skull",
+    "weight": 2,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  },
+  {
+    "name": "gold coin",
+    "description": "uhhhh, shiny!! :)",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[3][1]":[
+{"Item":
+[
+  {
+    "attackDamage": 35,
+    "name": "Moonlight Sword",
+    "description": "A sword imbued with the light of the moon, able to slay even the strongest demon",
+    "weight": 12,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": true
+  },
+  {
+    "name": "gold coin",
+    "description": "uhhhh, shiny!! :)",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[3][2]":[
+{"Item":
+[
+  {
+    "armorPoints": 40,
+    "name": "Necromancer Cloack",
+    "description": "A cloack that represent death itself, extremely durable and very light",
+    "weight": 7,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": true,
+    "isWeapon": false
+  },
+  {
+    "name": "gold coin",
+    "description": "uhhhh, shiny!! :)",
+    "weight": 1,
+    "canUse": false,
+    "canPickUp": true,
+    "heals": false,
+    "equipped": false,
+    "stack": 1,
+    "canDiscard": true,
+    "isArmor": false,
+    "isWeapon": false
+  }
+]},
+
+{"Npc":
+[]}],
+"Room[3][3]":[
+{"Item":
+[]},
+
+{"Npc":
+[]}]
+}
