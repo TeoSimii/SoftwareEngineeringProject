@@ -30,6 +30,7 @@ public class Game extends JFrame {
         //definizione dei componenti grafici
         submit = new JButton("Submit");
         command = new JTextField(32);
+        command.setFont(new Font("Arial", Font.BOLD, 20));
         log = new JLabel("",SwingConstants.CENTER);
         display = new JLabel("", SwingConstants.CENTER);
         
