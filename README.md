@@ -40,7 +40,15 @@ Il layout della griglia, comprese le porte bloccate, gli oggetti e gli NPC, è d
 <img src="img/DungeonOverview.png" alt="drawing" width="400"/>
 
 ## Per l'utilizzo
-per avviare il gioco, è solamente necessario spostarsi all'interno della cartella scaricata ed eseguire il comando: java -jar DungeonGame.jar
+* Scaricare la repository.
+* All'interno della cartella è contenuto il file `DungeonGame.jar`.
+* Eseguire il file DungeonGame.jar tramite il comando da terminale.
+```cmd
+$ java -jar DungeonGame.jar
+```
+> è importante non spostare il file DungeonGame.jar
+> 
+> Questa installazione è eseguibile soltanto su sistemi operativi Windows.
 
 Il progetto va aperto sull'IDE Intellij e caricato con Maven. 
 
