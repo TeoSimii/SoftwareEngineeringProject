@@ -20,7 +20,7 @@ public class Main {
 
         //Label per il background
         JLabel background = new JLabel();
-        background.setIcon(new ImageIcon("..\\IDS_Project\\src\\main\\java\\com\\idsproject\\background.jpg"));
+        background.setIcon(new ImageIcon("..\\SoftwareEngineeringProject-main\\src\\main\\java\\com\\idsproject\\background.jpg"));
         background.setLayout(new GridBagLayout());
 
         //Label del titolo
