@@ -57,7 +57,7 @@ Questo è necessario per l'utilizzo del file "pom.xml" che contiene gli script p
 ## Specifiche di versione e utilizzo di funzioni
 Java è nella versione più recente 22.
 
-Per usufruire della parte cloud che comprende il save e load della partita, si necessita del file aws-credentials.properties da posizionare nel percorso " ..\IDS-Project\src\main\resources\ ", per ottenere il file basta fare una richesta via email agli sviluppatori.
+Per usufruire della parte cloud che comprende il save e load della partita, si necessita di inserire le proprie chiavi nel file aws-credentials.properties presente nel percorso " ..\SoftwareEngineeringProject-main\src\main\resources\ ", le chiavi da inserire sono di un utente iam di AWS S3 e bisogna modificare all'interno del codice il nome del bucket con il proprio.
 
 ## Fonti esterne
 Per la generazione delle Ascii art è stato utilizzato il sito: [AsciiArt](https://www.asciiart.eu/image-to-ascii)
