@@ -225,7 +225,7 @@ class Events {
   + static boolean move (String, Player, Room, JLabel)
   + static void usePotion (HealItem, Player, JLabel)
   + static synchronized void gameLoop (Player, JLabel, JLabel, JTextField, JPanel)
-  + static Npc Interaction (Npc, JLabel, JLabel)
+  + static Npc Interaction (Npc, JLabel, JLabel, Boolean)
   + static void GameIntro (JLabel)
 }
 
