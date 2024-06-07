@@ -33,7 +33,7 @@ import java.util.ArrayList;
 public class saveFile
 {
     // Creazione del Client tramite credenziali
-    private final PropertiesFileCredentialsProvider properties = new PropertiesFileCredentialsProvider("..\\IDS_Project\\src\\main\\resources\\aws-credentials.properties" );
+    private final PropertiesFileCredentialsProvider properties = new PropertiesFileCredentialsProvider("..\\SoftwareEngineeringProject-main\\src\\main\\resources\\aws-credentials.properties" );
     protected AWSStaticCredentialsProvider credentialsProvider = new AWSStaticCredentialsProvider(properties.getCredentials());
     protected AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
                 .withCredentials(credentialsProvider)
@@ -42,7 +42,7 @@ public class saveFile
 
     protected  String bucketName="software-engineering-elements-project-save-files";
     protected  String fileName="saveFile-1.json";
-    protected  String filePath="..\\IDS_Project\\"+ fileName;
+    protected  String filePath="..\\SoftwareEngineeringProject-main\\SaveData\\"+ fileName;
 
 
     public static void save(Player player, Room[][] dungeon){
