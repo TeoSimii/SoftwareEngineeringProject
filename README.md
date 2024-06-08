@@ -48,6 +48,8 @@ $ java -jar DungeonGame.jar
 ```
 > è importante non spostare il file DungeonGame.jar
 > 
+> è importante non cambiare il nome della directory scaricata
+> 
 > Questa installazione è eseguibile soltanto su sistemi operativi Windows.
 
 Il progetto va aperto sull'IDE Intellij e caricato con Maven. 
