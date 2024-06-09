@@ -74,8 +74,8 @@ Questa configurazione rispetta i tre concetti di questo pattern: il Low Coupling
 
 ## Librerie utilizzate
 Le librerie esterne utilizzate nel progetto sono:
-* java swing
-* java awt
+* java swing (Responsabile dell'interfaccia grafica)
+* java awt (Responsabile del salvataggio e caricamento)
 * com.google.gson
 * java.nio
 * .lang.Thread
