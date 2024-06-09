@@ -47,6 +47,8 @@ Il layout della griglia, comprese le porte bloccate, gli oggetti e gli NPC, è d
 $ java -jar DungeonGame.jar
 ```
 > è importante non spostare il file DungeonGame.jar
+>
+> Necessario eseguire il progetto utilizzando Java 22.
 > 
 > è importante non cambiare il nome della directory scaricata
 > 
@@ -57,7 +59,7 @@ Il progetto va aperto sull'IDE Intellij e caricato con Maven.
 Questo è necessario per l'utilizzo del file "pom.xml" che contiene gli script per le dipendenze, vitali per usare diverse librerie che verranno spiegate più avanti. A questo punto, selezionando il file Main.java, sarai in grado di eseguire il programma con il pulsante verde nella sezione superiore e l'interfaccia grafica del gioco apparirà: ora puoi inserire i comandi nella barra di testo in basso e inviarli con il pulsante. Buona partita!
 
 ## Specifiche di versione e utilizzo di funzioni
-Java è nella versione più recente 22.
+Necessario eseguire il progetto utilizzando Java 22.
 
 Per usufruire della parte cloud che comprende il save e load della partita, si necessita di inserire le proprie chiavi nel file aws-credentials.properties presente nel percorso " ..\SoftwareEngineeringProject-main\src\main\resources\ ", le chiavi da inserire sono di un utente iam di AWS S3 e bisogna modificare all'interno del codice il nome del bucket con il proprio.
 
